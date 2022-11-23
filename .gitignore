@@ -1,0 +1,63 @@
+.DS_Store
+
+# .gitignore for Rest Project
+books-inventory/.DS_Store
+books-inventory/HELP.md
+books-inventory/target/
+books-inventory/!.mvn/wrapper/maven-wrapper.jar
+books-inventory/!**/src/main/**/target/
+books-inventory/!**/src/test/**/target/
+
+### STS ###
+books-inventory/.apt_generated
+books-inventory/.classpath
+books-inventory/.factorypath
+books-inventory/.project
+books-inventory/.settings
+books-inventory/.springBeans
+books-inventory/.sts4-cache
+
+### IntelliJ IDEA ###
+books-inventory/.idea
+books-inventory/*.iws
+books-inventory/*.iml
+books-inventory/*.ipr
+
+### NetBeans ###
+books-inventory/nbproject/private/
+books-inventory/nbbuild/
+books-inventory/dist/
+books-inventory/nbdist/
+books-inventory/.nb-gradle/
+books-inventory/build/
+books-inventory/!**/src/main/**/build/
+books-inventory/!**/src/test/**/build/
+
+### VS Code ###
+books-inventory.vscode/
+
+# .gitignore for React client
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+books-inventory-client/node_modules
+books-inventory-client/.pnp
+books-inventory-client/.pnp.js
+
+# testing
+books-inventory-client/coverage
+
+# production
+books-inventory-client/build
+
+# misc
+books-inventory-client/.DS_Store
+books-inventory-client/.env
+books-inventory-client/.env.local
+books-inventory-client/.env.development.local
+books-inventory-client/.env.test.local
+books-inventory-client/.env.production.local
+
+books-inventory-client/npm-debug.log*
+books-inventory-client/yarn-debug.log*
+books-inventory-client/yarn-error.log*

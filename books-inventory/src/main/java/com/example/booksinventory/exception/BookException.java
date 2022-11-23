@@ -1,0 +1,16 @@
+package com.example.booksinventory.exception;
+
+import org.springframework.http.HttpStatus;
+
+public class BookException extends RuntimeException {
+    private HttpStatus status;
+
+    public BookException(String message, HttpStatus status) {
+        super(message);
+        this.status = status;
+    }
+
+    public HttpStatus getStatus() {
+        return status;
+    }
+}
